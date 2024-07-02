@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="travel_recommendation.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+        <div class="logo">Travel Recommendations</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <form action="#" class="search-form">
+            <input id="searchInput" type="text" placeholder="Enter keywords..." class="search-bar">
+            <button id="searchBtn" class="search-btn">Search</button>
+            <button id="resetBtn" class="reset-btn">Reset</button>
+        </form>
+</nav>
+
+<div id="resultsContainer" class="results-container">
+    <!-- Results will be displayed here -->
+</div>
+
+<!-- Home Page Content -->
+<section class="home" id="home">
+    <div class="container">
+        <div class="home-content">
+            <h1>Welcome to Travel Recommendations</h1>
+            <p>Explore the best travel destinations and get personalized recommendations.</p>
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Us Page Content -->
+<section class="about" id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to Travel Recommendations. We are committed to providing you with the best travel advice and recommendations.</p>
+        
+        <h3>Our Team</h3>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://th.bing.com/th/id/OIP.GHGGLYe7gDfZUzF_tElxiQHaHa?rs=1&pid=ImgDetMain" alt="Team Member 1">
+                <h4>Luis Fernando Galviz</h4>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://th.bing.com/th/id/OIP.GHGGLYe7gDfZUzF_tElxiQHaHa?rs=1&pid=ImgDetMain" alt="Team Member 2">
+                <h4>Emily Smith</h4>
+                <p>CFO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://th.bing.com/th/id/OIP.GHGGLYe7gDfZUzF_tElxiQHaHa?rs=1&pid=ImgDetMain" alt="Team Member 3">
+                <h4>John Doe</h4>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Page Content -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us using the form below:</p>
+        
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Travel Recommendations. All rights reserved.</p>
+    </div>
+</footer>
+<script src="travel_recommendation.js"></script>
+</body>
+</html>
